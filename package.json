@@ -4,8 +4,7 @@
   "description": "Todo app GraphQL API server",
   "main": "index.js",
   "scripts": {
-    "build": "npm install",
-    "start": "node index.js",
+    "start": "micro",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.9.3",
-    "graphql": "^14.5.4"
+    "apollo-server-micro": "^2.9.3",
+    "graphql": "^14.5.4",
+    "micro": "^9.3.4"
   }
 }
